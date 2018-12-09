@@ -1,0 +1,4 @@
+<!--pages/forth/forth.wxml-->
+<text>pages/forth/forth.wxml</text>
+<!-- <navigator open-type='redirect' url='/pages/fifth/fifth?c=3&d=4'>重定向到第五个页面</navigator> -->
+<!-- 微信中的路由就是页面之间的跳转 包括历史纪录 重定向的页面会被卸载 可以通过组件重定向 代码也可以  也可以传递参数 -->

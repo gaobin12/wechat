@@ -1,0 +1,7 @@
+<!--pages/myinfo/myinfo.wxml-->
+<!-- <text>pages/myinfo/myinfo.wxml</text> -->
+<map longitude='106.2855500000' latitude='36.0131900000' scale='15'></map>
+<!-- 媒体组件 实时音频相机 camera 视频和音频 还有直播 录播 live-->
+<video src='地址一定在服务器上'></video>
+<audio src="" controls='表示默认样式'>音频地址也在服务器上</audio>
+<!-- <view>页面跳转</view> -->

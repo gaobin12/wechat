@@ -1,0 +1,15 @@
+<!--pages/detail/detail.wxml-->
+<!-- <text>富文本组件有一个nodes属性 可以书写html代码 可以是字符串 也可以是数组</text> -->
+<view></view>
+<rich-text nodes="<div class='a'>年后</div>">富文本组件</rich-text>
+<rich-text nodes="{{arr}}"></rich-text>
+<view>icon组件</view>
+<icon type='success' size='50'></icon>
+<icon type='warn' size='30'></icon>
+<icon type='clear' size='30'></icon>
+<icon type='download' size='30'></icon>
+<icon type='info' size='30'color="yellow"></icon>
+<view>画布canvas</view>
+<canvas canvas-id='mycanvas'></canvas>
+<view>image组件 有一个src属性 一般是服务器上的图片 mode属性表示图片的缩放</view>
+<image src='https://www.baidu.com/img/bd_logo1.png?where=super' mode='widthFix'></image>

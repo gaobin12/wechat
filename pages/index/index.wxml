@@ -1,0 +1,17 @@
+<!-- 滚动组件 scroll-view 有两个属性 第一个决定滚动的方向 scroll-y 上下滚动
+scroll-x左右滚动 scroll-into-view表示第一个出现的位置 必须是子组件的id -->
+<!-- <scroll-view style='height:400px' scroll-y scroll-into-view='d'>
+  <view id='{{item}}' wx:for='{{arr}}' wx:key='{{index}}' style='height: 40px'>{{item}}</view>
+</scroll-view> -->
+<!-- swiper是轮播图组件相当于ul#carousel swiper-item相当于li -->
+<swiper indicator-dots='true' indicator-color='hotpink' indicator-active-color='#fff' autoplay='true' interval="1000">
+  <swiper-item style="height: 150px; background-color: green">1</swiper-item>
+  <swiper-item style="height: 150px; background-color: blue">2</swiper-item>
+  <swiper-item style="height: 150px; background-color: red">3</swiper-item>
+  <swiper-item style="height: 150px; background-color: purple">4</swiper-item>
+</swiper>
+<!-- indicator-dots表示小圆点 indicator-color表示默认颜色 indicator-active-color选中颜色 -->
+<!-- 滑动组件 movable-area movable-view direction all vertical horizontal-->
+<movable-area style="width: 100%; height: 200px; background-color: hotpink">
+  <movable-view direction="horizontal" style='height: 50px; width: 50px; background-color: #fff'></movable-view>
+</movable-area>
