@@ -4,3 +4,4 @@
     <text class="log-item">{{index + 1}}. {{log}}</text>
   </block>
 </view>
+<view>你好 世界</view>
