@@ -10,3 +10,5 @@
 
 git wechat
 
+no git wechat
+
